@@ -36,7 +36,7 @@ then
         echo " ★★★Triển Khai Cài Đặt X-UI Cho Bạn★★★ "
         echo " Tiến Hành ... "
         apt-get update -y
-        bash <(curl -Ls https://raw.githubusercontent.com/TranCuongQ4/X-UI-VH/master/install.sh)
+        bash <(curl -Ls https://raw.githubusercontent.com/nguyentany/X-UI/main/caidatxui.sh)
         ufw allow 54321
         ufw allow 443
         ufw allow 80
@@ -57,7 +57,7 @@ elif [ $so -eq 3 ]
 then
         clear
         echo " ★★★Triển Khai Tăng Tốc Cho Bạn Nhấn Enter Để Tiếp Tục★★★ "
-        bash <(curl -Ls https://raw.githubusercontent.com/TranCuongQ4/BBR/master/bbr.sh)
+        bash <(curl -Ls https://raw.githubusercontent.com/nguyentany/X-UI/main/bbr.sh)
         bash menucaidat.sh
 elif [ $so -eq 4 ]
 then
@@ -73,7 +73,7 @@ elif [ $so -eq 5 ]
 then
         clear
         echo " ★★★Triển Khai Sửa Lệnh X-UI Cho Bạn★★★ "
-        bash <(curl -Ls https://raw.githubusercontent.com/TranCuongQ4/X-UI/master/install.sh)        
+        bash <(curl -Ls https://raw.githubusercontent.com/nguyentany/X-UI/main/caidatxui.sh)        
         bash menucaidat.sh
 elif [ $so -eq 6 ]
 then
@@ -140,7 +140,7 @@ then
         echo " "
         echo " ☸☸☸Hẹn Gặp Lại Mọi Người Trong Lần Tới Chúng Tôi Phục Vụ Hết Mình Xin Chào☸☸☸ "
         echo " "
-        echo " ☸☸☸Nếu Muốn Gọi Tôi Hãy Dùng Lệnh Như Ban Đầu Là : bash <(curl -Ls https://raw.githubusercontent.com/TranCuongQ4/TuTaoX-UI/master/menutrancuong.sh)☸☸☸ "
+        echo " ☸☸☸Nếu Muốn Gọi Tôi Hãy Dùng Lệnh Như Ban Đầu Là : bash <(curl -Ls bash <(curl -Ls https://raw.githubusercontent.com/nguyentany/X-UI/main/menutany.sh))☸☸☸ "
         echo " "
         echo " ✠✠✠ Vào Nhóm Chúng Tôi Giao Lưu https://www.facebook.com/nguyentany.2105 ✠✠✠ "
         echo " ★★★Xin Chào Hẹn Gặp Lại★★★ "
