@@ -14,6 +14,6 @@ sudo apt-get update
 sudo apt-get install curl
 sudo apt-get install bash
 clear
-wget https://raw.githubusercontent.com/nguyentany/X-UI/main/menucaidat.sh
+wget https://raw.githubusercontent.com/TranCuongQ4/X-UI-VH/master/menucaidat.sh
 chmod +x menucaidat.sh
 bash menucaidat.sh
